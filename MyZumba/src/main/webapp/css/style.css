@@ -1,0 +1,96 @@
+.loginContainer {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.loginWrapper {
+  padding: 30px;
+
+  max-width: 700px; /* Set maximum width to 700px */
+  width: 100%;
+  /* Ensure it occupies available width within the max-width limit */
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.loginTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mynavbar{
+	margin-bottom: 50px;
+}
+
+.loginTitle h1 {
+  text-transform: capitalize;
+  color: blue;
+}
+
+
+.AdminWrapper{
+	display: flex;
+	flex-direction: column;
+	gap:20px; 
+}
+
+.addData{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px;
+	background-color: #f7f7f5;
+}
+
+.addData h2{
+	margin:0;
+}
+
+.mynavbar{
+	
+}
+
+.navbarContainer{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.navbarLinks{
+	display: flex;
+	gap:20px;
+}
+
+.login{
+	margin-top:15px;
+}
+
+.login p{
+	margin:0;
+}
+
+.login a{
+	text-decoration: underline;
+
+}
+
+.home-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	max-width: 55vw;
+	margin: 32px;
+}
